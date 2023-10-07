@@ -1,0 +1,22 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script&family=Playfair+Display:ital@1&display=swap');
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid #bb2525;
+    background-color: #141e46 ;
+    color: blanchedalmond;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    padding-left: 20px;
+}
