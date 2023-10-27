@@ -5,7 +5,7 @@ header {
     align-items: center;
     justify-content: space-between;
     border-bottom: 5px solid #bb2525;
-    background-color: #141e46 ;
+    background-color: #000b35 ;
     color: blanchedalmond;
 }
 
@@ -19,4 +19,5 @@ li {
 h1 {
     font-family: 'Dancing Script', cursive;
     padding-left: 20px;
+    color: aliceblue;
 }
