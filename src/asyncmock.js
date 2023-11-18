@@ -1,8 +1,8 @@
 const articulos = [
-    {id: "1", nombre: "Remera", precio: 3000, img: "../remera.jpg", idCart:"2" },
-    {id: "2", nombre: "Camperita", precio: 10000, img:"../camperita.jpg", idCart:"3" },
-    {id: "3", nombre: "Pantalon", precio: 5000, img:"../pantalon.jpg", idCart:"2" },
-    {id: "4", nombre: "Buzos", precio: 12000,img: "../buzo.jpg", idCart:"3" },
+    {id: "1", nombre: "Remera", stock:10, precio: 3000, img: "../remera.jpg", idCart:"2" },
+    {id: "2", nombre: "Camperita", stock:10, precio: 10000, img:"../camperita.jpg", idCart:"3" },
+    {id: "3", nombre: "Pantalon", stock:10, precio: 5000, img:"../pantalon.jpg", idCart:"2" },
+    {id: "4", nombre: "Buzo", stock:10, precio: 12000,img: "../buzo.jpg", idCart:"3" },
 ];
 
 export const getProductos = () => {
