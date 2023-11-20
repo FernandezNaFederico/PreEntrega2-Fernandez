@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "./ItemDetail.css"
 import { CarritoContext } from "../../context/CarritoContext";
 
+
 const ItemDetail = ({id, nombre, stock, precio, img}) => {
     const [agregarCantidad, setAgregarCantidad] = useState(0);
 
@@ -23,7 +24,7 @@ const ItemDetail = ({id, nombre, stock, precio, img}) => {
             <h3>Precio: {precio} </h3>
             <h3>Id: {id} </h3>
             <img src={img} alt={nombre} />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt obcaecati cum ratione ad, error ut quo doloribus blanditiis esse autem officia id, quia delectus adipisci reprehenderit sapiente qui, dolorum recusandae quisquam assumenda aspernatur laboriosam consequatur architecto? Soluta esse incidunt provident minima dignissimos, at, odit delectus numquam nam aut in.</p>
+            <p>Nuestra indumentaria siempre estan echas de la mejor calidad, ya que somos fabricantes de ellas y nos aseguramos que asi sea. Todas nuestran prendas se pueden cambiar dentro de los 15 dias de la compra.</p>
 
             {
                 agregarCantidad > 0 ? (<Link to="/cart">Terminar Compra</Link>) : (<Contador inicial={1} 

@@ -28,6 +28,7 @@ h2 {
 }
 
 .ordenId {
+    color: green;
     display: block;
     margin: 4rem;
     padding: 2rem;

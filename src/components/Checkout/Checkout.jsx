@@ -50,7 +50,7 @@ const Checkout = () => {
 
         Promise.all(
             orden.items.map( async (productoOrden) => {
-                const productoRef = doc(db, "productos", productoOrden.id);
+                const productoRef = doc(db, "inventario", productoOrden.id);
                 const productoDoc = await getDoc(productoRef);
                 const stockActual = productoDoc.data().stock;
 
@@ -74,7 +74,7 @@ const Checkout = () => {
         })
         .catch((error) => {
             console.log("No se pudo actualiza rel stock", error);
-            setError("No se puede actualizar el stock, intente en el supermercado Vital");
+            setError("No se puede actualizar el stock");
         })
 
     }
